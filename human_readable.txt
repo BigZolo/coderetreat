@@ -1,0 +1,17 @@
+Tetris
+
+- random brick generation on top,  random but free columns
+- during brick generation check free space
+- start to falling down at given speed
+- free space under check
+- free space sideways check
+
+start:
+  define canvas
+    - Is the canvas empty?
+
+  - n = 0, starts from top line
+  - is there any free space in the nth line?
+    - true: n++
+
+  find the lowest   
